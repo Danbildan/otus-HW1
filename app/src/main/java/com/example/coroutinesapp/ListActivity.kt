@@ -46,7 +46,6 @@ class ListActivity : AppCompatActivity(), CoinViewHolder.ClickCoinItemListener {
     }
 
     fun updateUI(coins: List<Coin>){
-
          adapterRv.add(coins)
     }
 
